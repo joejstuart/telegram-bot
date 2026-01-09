@@ -1,0 +1,29 @@
+# Sensitive files - tokens and credentials
+token.json
+google_token.json
+*.json.bak
+.env
+.env.*
+!.env.example
+
+# Compiled binary
+telegram-bot
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# code workspace
+workspace/
